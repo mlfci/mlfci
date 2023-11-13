@@ -1,6 +1,28 @@
 #!/bin/bash
 
 
+
+
+git config --global color.ui auto
+git status
+git commit -m "hello.sh created"
+git status
+git add .
+git checkout
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
 (base) [train@10 git_project]$ nano hello.sh
 
 (base) [train@10 git_project]$ .hello.sh
